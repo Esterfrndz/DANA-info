@@ -1,17 +1,38 @@
-
-.info-container{
-
+.info-container {
     padding-bottom: 30px;
-}
-.info-container h1{
-
-
-    font-size:40px ;
-
+    text-align: center;
 }
 
-.info-container p{
+.info-container h1 {
+    font-size: 40px;
+}
 
+.info-container p {
     font-size: 18px;
 }
 
+/* Adaptación para iPad (pantallas entre 768px y 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .info-container h1 {
+        font-size: 32px; /* Tamaño más pequeño para iPad */
+    }
+    
+    .info-container p {
+        font-size: 16px; /* Ajuste del tamaño de fuente para iPad */
+    }
+}
+
+/* Adaptación para iPhone (pantallas menores de 768px) */
+@media (max-width: 767px) {
+    .info-container h1 {
+        font-size: 24px; /* Tamaño más pequeño para iPhone */
+    }
+    
+    .info-container p {
+        font-size: 14px; /* Ajuste del tamaño de fuente para iPhone */
+    }
+    
+    .info-container {
+        padding-bottom: 20px; /* Ajuste del padding para dispositivos más pequeños */
+    }
+}
