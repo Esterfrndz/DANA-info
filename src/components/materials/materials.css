@@ -1,0 +1,24 @@
+.title-material{
+
+
+    text-align: center;
+}
+
+.column {
+    flex: 1; /* Cada columna toma el mismo ancho */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .material-container{
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px; /* Espacio entre columnas */
+        padding: 20px;
+      
+  }

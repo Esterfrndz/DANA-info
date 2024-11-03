@@ -1,5 +1,5 @@
 import '../navbar/navbar.css';
-import logo from '../assets/logo.png'
+
 import React, { useState, useEffect } from 'react';
 
 import { Divider } from '@nextui-org/react';

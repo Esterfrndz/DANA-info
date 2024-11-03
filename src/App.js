@@ -2,7 +2,9 @@ import './App.css';
 import Navigation from './components/navbar/navbar';
 import Info from './components/About/About';
 import TownTabs from './components/tabs/tabs';
-import materialComponent from './components/materials/materials';
+import Material from './components/materials/materials';
+import Tlf from './components/tlf/tlf';
+
 
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
       <div className="main-container">
         <Info />
         <TownTabs/>
-        <materialComponent/>
+        <Material/>
+        <Tlf/>
 
       </div>
     </div>
