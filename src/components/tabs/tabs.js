@@ -47,7 +47,7 @@ const townsData = [
           title: 'Torrente',
           markers: [
             { position: [39.4240595209308, -0.4847568094663884], title: 'Pabellón del Vedat', description: 'Alimentos y productos esenciales' },
-            { position: [37.7812, -122.4123], title: 'Ubicación 4', description: 'Descripción de la ubicación 4' },
+            
           ],
         },{
             title: 'Ribarroja',
@@ -91,13 +91,13 @@ const townsData = [
             
           ],
         },
-        {
-          title: 'Mapa B',
-          markers: [
-            { position: [34.0542, -118.2457], title: 'Ubicación C', description: 'Descripción de la ubicación C' },
-            { position: [34.0592, -118.2423], title: 'Ubicación D', description: 'Descripción de la ubicación D' },
-          ],
-        },
+        // {
+        //   title: 'Mapa B',
+        //   markers: [
+        //     { position: [34.0542, -118.2457], title: 'Ubicación C', description: 'Descripción de la ubicación C' },
+        //     { position: [34.0592, -118.2423], title: 'Ubicación D', description: 'Descripción de la ubicación D' },
+        //   ],
+        // },
       ],
     },
     {
@@ -113,13 +113,13 @@ const townsData = [
               
             ],
           },
-          {
-            title: 'Mapa B',
-            markers: [
-              { position: [34.0542, -118.2457], title: 'Ubicación C', description: 'Descripción de la ubicación C' },
-              { position: [34.0592, -118.2423], title: 'Ubicación D', description: 'Descripción de la ubicación D' },
-            ],
-          },
+          // {
+          //   title: 'Mapa B',
+          //   markers: [
+          //     { position: [34.0542, -118.2457], title: 'Ubicación C', description: 'Descripción de la ubicación C' },
+          //     { position: [34.0592, -118.2423], title: 'Ubicación D', description: 'Descripción de la ubicación D' },
+          //   ],
+          // },
         ],
       },
   ];
