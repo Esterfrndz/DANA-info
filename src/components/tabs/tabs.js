@@ -43,6 +43,15 @@ const townsData = [
            
           ],
         },
+
+        // {
+        //   title: 'Paterna',
+        //   markers: [
+        //     { position: [39.4240595209308, -0.4847568094663884], title: 'Pabellón del Vedat', description: 'Alimentos y productos esenciales' },
+            
+        //   ],
+        // }
+,
         {
           title: 'Torrente',
           markers: [
@@ -75,6 +84,13 @@ const townsData = [
             title: 'Alboraya',
             markers: [
               { position: [39.499779474009216, -0.3556592823348688], title: 'Ciutat de l’Esport', description: 'Alimentos y productos esenciales' },
+             
+            ],
+          },
+          {
+            title: 'Catarroja',
+            markers: [
+              { position: [39.397419461752996, -0.39668583380109323], title: 'KMKZS GARAGE', description: 'Agua oxigenada, guantes, mascarilla, botas y batas impermeables' },
              
             ],
           },
