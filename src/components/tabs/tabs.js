@@ -35,6 +35,11 @@ const townsData = [
             { position: [39.47980846980056, -0.32676031338532174], title: 'MenejaT fit', description: 'Alimentos y productos esenciales' },
             { position: [39.46144919050952, -0.39428372026035774], title: 'El Cresol', description: 'Alimentos y productos esenciales' },
             { position: [39.44387880640723, -0.387667266173715], title: 'Falla Arzobispo Olaechea San Marcelino', description: 'Alimentos y productos esenciales' },
+            { position: [39.44808556193582, -0.373558074274359], title: 'Malilla', description: 'Alimentos y productos esenciales' },
+            { position: [39.471390775467896, -0.3871787860352621], title: 'El loco Club', description: 'Alimentos y productos esenciales' },
+            { position: [39.479835811442776, -0.32695611845316636], title: 'Menejat', description: 'Alimentos y productos esenciales' },
+
+
            
           ],
         },
