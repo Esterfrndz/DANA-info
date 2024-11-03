@@ -138,6 +138,62 @@ const townsData = [
           // },
         ],
       },
+      {
+        name: 'Barcelona',
+        coordinates: [41.38289261626774, 2.154115509846295],
+        maps: [
+          {
+            title: 'Barcelona',
+            markers: [
+              { position: [41.41167688144891, 2.1922736411601518], title: 'Carrer de Bilbao, 212', description: 'Alimentos y productos esenciales' },
+              { position: [41.41034459536112, 2.1985905239628445], title: 'Carrer Perú, 122', description: 'Alimentos y productos esenciales' },
+              { position: [41.37340668695048, 2.1373898681413457], title: 'Bonitolojusto tattoo estudio', description: 'Alimentos y productos esenciales' },
+              { position: [41.35430852003899, 2.09887632581259], title: 'Club de Cheerleading Bears Barcelona', description: 'Alimentos y productos esenciales' },
+              { position: [41.427782681035794, 2.201814425816023], title: '8CountsGym', description: 'Alimentos y productos esenciales' },
+              { position: [41.38924665118694, 2.165026439306081], title: 'Organització Juvenil Espanyola', description: 'Alimentos y productos esenciales' },
+              { position: [41.37763573022366, 2.1586528699939618], title: 'Av.Mistral, 14', description: 'Alimentos y productos esenciales' },
+              
+            ],
+          },
+           {
+            title: 'Castelldefels',
+             markers: [
+               { position: [41.41125919286869, 2.216377969995499], title: 'Av. Diagonal, 16, local 1', description: 'Alimentos y productos esenciales' },
+              { position: [41.28538067975517, 1.9799099276617733], title: 'Centro cívico Frederic Mompou', description: 'Alimentos y productos esenciales' },
+            ],
+           },
+           {
+            title: 'Gavà',
+             markers: [
+               { position: [41.29604979755422, 2.0114170268519764], title: 'Carrer de la Maquina, 51', description: 'Alimentos y productos esenciales' },
+              { position: [41.30687922086695, 1.998446568138288], title: 'Casa de València', description: 'Alimentos y productos esenciales' },
+            ],
+           },
+           {
+            title: 'Viladecans',
+             markers: [
+               { position: [39.50346510650977, -0.44320073452274106], title: 'C.Mayor, 41', description: 'Alimentos y productos esenciales' },
+              { position: [41.30687922086695, 1.998446568138288], title: 'Casa de València', description: 'Alimentos y productos esenciales' },
+            ],
+           },
+           {
+            title: 'Cornellá de Llobregat',
+             markers: [
+               { position: [41.35328604351519, 2.0726433816322833], title: 'Carrer de Eduard Gibert i Riera, 29'
+               , description: 'Alimentos y productos esenciales' },
+              { position: [41.35940600442175, 2.0720425214204226], title: 'Federación Comarcal CGT Baix Llobregat', description: 'Alimentos y productos esenciales' },
+
+              { position: [41.35460359802767, 2.0649091802216293], title: 'Esplai Vol i Vol', description: 'Alimentos y productos esenciales' },
+              {position:[
+              41.36155907044563, 2.0696662546489897], title: 'La Calderia', description: 'Alimentos y productos esenciales' },
+              {position:[
+                41.366783895909684, 2.0829227382025337], title: 'Penya Domino', description: 'Alimentos y productos esenciales' },
+                {position:[
+                  41.348335872703444, 2.074615141156524], title: 'Campo RCD Espanyol', description: 'Alimentos y productos esenciales' },
+            ],
+           },
+        ],
+      },
   ];
   
 
@@ -174,7 +230,7 @@ const TownTabs = () => {
   
         {maps.map((map, index) => (
           <TabPanel key={index}>
-            <MapContainer center={map.markers[0].position} zoom={13} style={{ height: "400px", width: "100%"}}>
+            <MapContainer center={map.markers[0].position} zoom={12} style={{ height: "400px", width: "100%"}}>
               <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
