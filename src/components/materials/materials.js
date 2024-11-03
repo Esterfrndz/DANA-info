@@ -5,6 +5,7 @@ function Material() {
   return (
     <div className="container-material">
       <h1 className="title-material">Materiales necesarios</h1>
+      <h2 className='title-material-h2'>¿Qué materiales necesitan los puntos de recogida?</h2>
 
       <div className="columns-material">
         <div className="column-unique">

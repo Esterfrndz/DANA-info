@@ -3,6 +3,12 @@
 
     text-align: center;
 }
+.title-material-h2{
+
+
+  text-align: center;
+  color:rgb(173, 178, 183); 
+}
 
 .column-unique {
     flex: 1; /* Cada columna toma el mismo ancho */

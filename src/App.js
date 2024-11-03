@@ -14,6 +14,7 @@ function App() {
 
       <div className="main-container">
         <Info />
+        <div className='title-map'><h2>¿Dónde se encuentran los puntos de recogida?</h2></div>
         <TownTabs/>
         <Material/>
         <Tlf/>

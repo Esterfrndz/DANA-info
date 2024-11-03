@@ -10,5 +10,12 @@
    padding: 0px 5px ;
 }
 
+.title-map{
 
+  text-align: center;
+  color: rgb(173, 178, 183);
+}
 
+*{
+  padding: 5px;
+}
