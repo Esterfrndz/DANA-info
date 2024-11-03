@@ -1,10 +1,13 @@
 .nav-container{
-    margin-top: 10px;
+  
     border: 2px double rgb(132, 128, 128);
     border-radius:5px ;
+    margin-top: 20px;
+
 }
 
 .nav-container h1{
+   
     font-size: 25px;
     margin-left: 10px;
 }
