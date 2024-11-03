@@ -2,6 +2,7 @@ import '../navbar/navbar.css';
 
 import React, { useState, useEffect } from 'react';
 
+
 import { Divider } from '@nextui-org/react';
 
 const Navigation = () => {
@@ -31,7 +32,7 @@ const Navigation = () => {
   return (
 
     <div className="nav-container">
-      {/* <img src={logo} className='logo-nav'></img> */}
+      
       <h1 className='title-nav'>Info Dana Valencia</h1>
 
       {/* <nav className={`navigation ${showNav ? 'nav-visible' : 'nav-hidden'}`}>
@@ -56,7 +57,7 @@ const Navigation = () => {
         </ul>
       </nav> */}
 
-      
+      {/* <img src={logo} className='logo-nav'></img> */}
     </div>
   );
 };

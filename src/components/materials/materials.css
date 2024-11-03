@@ -4,21 +4,66 @@
     text-align: center;
 }
 
-.column {
+.column-unique {
     flex: 1; /* Cada columna toma el mismo ancho */
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #3e3e3e;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #343232;
     text-align: center;
   }
 
-  .material-container{
+  .columns-material{
   
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 20px; /* Espacio entre columnas */
         padding: 20px;
+       
       
   }
+
+  /* Estilo general del contenedor */
+.container-material {
+    padding: 20px;
+  }
+  
+  .title-material {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .columns-material{
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se ajusten en filas según el ancho */
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1 1 45%; /* Ancho de cada columna (45%) en pantallas grandes */
+    min-width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Ajustes para pantallas de iPad */
+  @media (max-width: 1024px) {
+    .column {
+      flex: 1 1 45%; /* Dos columnas en iPad (45% cada una) */
+    }
+  }
+  
+  /* Ajustes para pantallas de móviles */
+  @media (max-width: 768px) {
+    .columns-material {
+      flex-direction: column; /* Cambia a una columna en dispositivos móviles */
+    }
+    .column {
+      flex: 1 1 100%; /* Cada columna ocupa el 100% del ancho en móviles */
+    }
+  }
+  
