@@ -1,6 +1,12 @@
 .container-tlf{
 
 text-align: center;
+padding: 20px;
 
 }
 
+.list-tlf{
+
+    border: 2px solid black;
+    padding: 20px;
+}
