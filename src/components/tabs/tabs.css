@@ -4,3 +4,36 @@ font-weight: 500;
 font-size: 17px;
 
 }
+
+/* Estilos generales para el tema oscuro */
+.dark-theme {
+    background-color: #121212; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto claro */
+}
+
+.dark-theme .nav {
+    background-color: #1f1f1f; /* Fondo de la navbar oscura */
+}
+
+.dark-theme .tab {
+    background-color: #1f1f1f; /* Fondo de las pestañas oscuras */
+}
+
+.dark-theme .tab-list {
+    border-color: #333; /* Color del borde de la lista de pestañas */
+}
+
+.dark-theme .tab-panel {
+    background-color: #1f1f1f; /* Fondo de las pestañas */
+}
+
+/* Estilo para el mapa */
+.dark-theme .leaflet-container {
+    background-color: #1f1f1f; /* Fondo del mapa oscuro */
+}
+
+/* Estilo para los Popups */
+.dark-theme .leaflet-popup {
+    background-color: #333; /* Fondo de los Popups */
+    color: #ffffff; /* Color de texto de los Popups */
+}
