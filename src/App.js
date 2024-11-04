@@ -17,7 +17,12 @@ function App() {
         <div className='title-map'><h2>¿Dónde se encuentran los puntos de recogida?</h2></div>
         <TownTabs/>
         <Material/>
-        <Tlf/>
+        <section id='tlfs' >
+          <Tlf/>
+        </section>
+        
+      
+    
 
       </div>
     </div>
