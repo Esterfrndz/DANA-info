@@ -11,3 +11,17 @@ padding: 20px;
     padding: 20px;
     border-radius: 5px;
 }
+
+hr {
+    border: none; /* Elimina el borde por defecto */
+    height: 1px; /* Grosor de la línea */
+    background-color: white; /* Color blanco */
+    margin: 20px 0; /* Espaciado vertical */
+    opacity: 0.5;
+  }
+
+.title-tlfs-h2{
+background-color: #9B2D46;
+margin: 20px 20px;
+
+}

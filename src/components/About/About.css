@@ -1,6 +1,20 @@
 .info-container {
     padding-bottom: 30px;
     text-align: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* Contenedor texto */
+.info-div{
+
+    display: flex;
+    flex-direction: column;
 }
 
 .info-container h1 {
@@ -10,6 +24,19 @@
 .info-container p {
     font-size: 18px;
 }
+
+.icon-about{
+
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 120px;
+   margin-top: 60px;
+    
+}
+
+
+
 
 /* Adaptación para iPad (pantallas entre 768px y 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
