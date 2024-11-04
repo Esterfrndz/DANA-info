@@ -37,3 +37,53 @@ font-size: 17px;
     background-color: #333; /* Fondo de los Popups */
     color: #ffffff; /* Color de texto de los Popups */
 }
+
+
+
+
+/* Estilos para las pestañas principales */
+.main-tab-list .main-tab {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #007BFF; /* Color de fondo de las pestañas principales */
+    color: #fff; /* Color del texto de las pestañas principales */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-tab-list .main-tab.react-tabs__tab--selected {
+    background-color: #0056b3; /* Color de la pestaña principal activa */
+    font-weight: bold;
+}
+
+/* Hover en las pestañas principales */
+.main-tab-list .main-tab:not(.react-tabs__tab--selected):hover {
+    background-color: #0056b3;
+}
+
+.sub-tab-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra las subpestañas */
+    gap: 5px; /* Espacio entre las subpestañas */
+    list-style: none;
+}
+
+.sub-tab-list .sub-tab {
+    padding: 8px 12px;
+    background-color: #28A745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sub-tab-list .sub-tab.react-tabs__tab--selected {
+    background-color: #1e7e34;
+    font-weight: bold;
+}
+
+.sub-tab-list .sub-tab:not(.react-tabs__tab--selected):hover {
+    background-color: #1e7e34;
+}

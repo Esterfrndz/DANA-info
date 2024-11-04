@@ -1,19 +1,106 @@
-.nav-container{
-  
+/* Estilos generales */
+.nav-container {
     border: 2px double rgb(132, 128, 128);
-    border-radius:5px ;
+    border-radius: 5px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
 }
 
-.nav-container h1{
-   
+.nav-container h1 {
     font-size: 25px;
     margin-left: 10px;
-    
 }
 
+.nav-container button {
+    background-color: rgb(155, 45, 70);
+    font-weight: 600;
+    box-shadow: 6px 5px 5px rgb(49, 49, 49);
+    cursor: pointer;
+    animation: shimmer 0.5s infinite;
+}
 
+@keyframes shimmer {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
 
+.nav-container button:hover {
+    box-shadow: 6px 5px 5px rgb(214, 212, 212);
+    font-size: 15px;
+}
+
+.button-nav {
+    padding-bottom: 20px;
+    height: 40px;
+}
+
+.logo-navbar {
+    width: 80px;
+    margin-right: 95px;
+    align-items: center;
+}
+
+/* Media Queries para iPad (pantallas de ancho entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-container {
+        flex-direction: row;
+        padding: 10px 15px;
+    }
+    
+    .nav-container h1 {
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .logo-navbar {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .nav-container button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Media Queries para iPhone (pantallas de ancho hasta 767px) */
+@media (max-width: 767px) {
+    .nav-container {
+        flex-direction: row;
+        padding: 10px;
+        text-align: center;
+        
+
+    }
+
+    .nav-container h1 {
+        font-size: 15px;
+        margin: 0px 0;
+    }
+
+    .logo-navbar {
+        width: 50px;
+        margin:10px 45px 10px;
+    }
+
+    .nav-container button {
+        font-size: 14px;
+        padding: 10px;
+        margin: 5px 10px;
+        
+        
+    }
+
+    .button-nav {
+        height: 35px;
+        padding-bottom: 10px;
+        
+    }
+}

@@ -1,11 +1,22 @@
 import '../navbar/navbar.css';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect} from 'react';
+import Button from '@mui/material/Button';
+import { BsFillTelephoneFill } from "react-icons/bs";
+import Logo from '../../assets/logoEF.png';
 
 
 import { Divider } from '@nextui-org/react';
 
 const Navigation = () => {
+
+  const redirection = () =>{
+
+    window.location = "#tlfs";
+
+  }
+
+
   const [showNav, setShowNav] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -35,6 +46,14 @@ const Navigation = () => {
       
       <h1 className='title-nav'>Info Dana Valencia</h1>
 
+      <img src={Logo} className='logo-navbar'></img>
+
+      {/* Botón ayuda */}
+     
+      <Button className='button-nav' onClick={redirection}  variant="contained">Ayuda<BsFillTelephoneFill />
+    </Button>
+   
+
       {/* <nav className={`navigation ${showNav ? 'nav-visible' : 'nav-hidden'}`}>
         <ul>
           <li>
@@ -57,7 +76,7 @@ const Navigation = () => {
         </ul>
       </nav> */}
 
-      {/* <img src={logo} className='logo-nav'></img> */}
+    
     </div>
   );
 };
