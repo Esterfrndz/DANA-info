@@ -12,7 +12,7 @@ return(
     {/* <IoIosInformationCircleOutline className="icon-about" /> */}
     <div className="info-div">
     <h1>Información</h1>
-   <p>En esta web podrás encontrar los puntos de recogida tanto de alimentos cómo de materiales necesarios. <br></br>También podrás ver los materiales más prioritarios y los telefónos de contacto para cualquier tipo de emergencia.</p>
+   <p>En esta web podrás encontrar los puntos de recogida tanto de alimentos cómo de materiales necesarios. <br></br>También podrás ver los materiales que se necesitan y los telefónos de contacto para cualquier tipo de emergencia.</p>
 
    </div> 
     {/* <IoIosInformationCircleOutline 

@@ -15,14 +15,19 @@
 
     display: flex;
     flex-direction: column;
+    
+
 }
 
+
 .info-container h1 {
-    font-size: 40px;
+    font-size:50px;
 }
 
 .info-container p {
-    font-size: 18px;
+    font-size: 20px;border: 5px solid #9B2D46;
+    padding: 45px;
+
 }
 
 .icon-about{

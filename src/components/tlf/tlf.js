@@ -12,9 +12,9 @@ function Tlf(){
 
         <div className="list-tlf">
             <h2 className="title-tlfs-h2">Tlfs. Principales</h2>
-            <p>Emergencias <b>112</b></p>
-            <p>Cruz Roja <b>900 104 971</b></p>
-            <p>DGT <b>011</b></p>
+            <p>Emergencias: <b>112</b></p>
+            <p>Cruz Roja: <b>900 104 971</b></p>
+            <p>DGT: <b>011</b></p>
             <p>Atención de familiares de las personas desaparecidas: <b>900 365 112</b></p>
             <p>Psicólogas y Psicólogos Sin Fronteras: <b>960 450 230</b></p>
             <hr></hr>

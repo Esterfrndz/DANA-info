@@ -12,11 +12,12 @@
 
 .column-unique {
     flex: 1; /* Cada columna toma el mismo ancho */
-    padding: 20px;
+    
     border: 1px solid #3e3e3e;
     border-radius: 8px;
     background-color: #343232;
     text-align: center;
+    align-items: center;
   }
 
   .columns-material{
@@ -55,6 +56,24 @@
     border-radius: 8px;
     background-color: #f9f9f9;
   }
+  
+  /* Acoordeón */
+  .accordion-header {
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+  }
+
+  .accordion-header span{
+    font-size: 30px;
+    align-items: center;
+  }
+
+  .list-material{
+    list-style:circle
+  }
+
+
   
   /* Ajustes para pantallas de iPad */
   @media (max-width: 1024px) {
